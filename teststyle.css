@@ -73,7 +73,7 @@
 .navbar_button{
     display: flex;
     align-items: center;
-    margin-left: 12px; /* Add some spacing */
+    margin-left: 0px; /* Add some spacing */
 
 }
 .navbar_contact{
@@ -173,7 +173,7 @@
     margin-top: 80px;
     margin-bottom: 50px;
     height: 40rem;
-    width: 30rem;
+    width: 90%;
     background: #CB356B;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -525,3 +525,40 @@
         background-color: #0f1316;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .hero_title {
+        font-size: 3.5rem;
+        
+    }
+    .hero_content{
+        padding-right: 1.5rem;
+
+    }
+    .about_text{
+        font-size: 1.5rem;
+    }
+     .X{
+        margin-left: 20%;
+        height: 250px;
+        width: 150px;
+        
+     }
+     .navbar_content{
+        padding-right:0px;
+    
+     }
+     .instagram {
+        margin-left: 20%;
+        
+     }
+     .social{
+     }
+}
+@media screen and (max-width: 380px) {
+    .about_text{
+        font-size: 1.25rem;
+    }
+}
+
+
