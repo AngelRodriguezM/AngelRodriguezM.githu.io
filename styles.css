@@ -171,6 +171,23 @@ textarea{
         /* Styles for smaller screens */
         margin-right: 5px; /* Adjust as needed */
     }
+
+    .form_container{
+
+        padding: 10px;
+        margin-bottom: 30px;
+
+    }
+
+    h1{
+        font-size: 55px;
+    }
+    
+    #survey-form{
+        padding: 40px;
+    }
+
+
 }
 
 #radio_label {
