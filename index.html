@@ -1,70 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survey</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="teststyle.css">
+    <title>Angel Rodriguez</title>
+    <meta name="viewport" content="width=device-width initial-scale=1.0" > 
 </head>
 <body>
-    <h1 id="title">A Quick Survey!</h1>
-    <p id="description">It'll take just a second</p>
-    <div class="form_container">
-        <form id="survey-form" action="">
-            <label id="name-label" for="name">Name</label>
-            <input type="text" id="name" required placeholder="Your Name">
-
-            <label id="email-label" for="email">Email</label>
-            <input type="email" id="email" required placeholder="Your@email.com">
-
-            <label id="number-label" for="number">What would you rate the site between 1-10</label>
-            <input type="number" id="number" placeholder="10" min="1" max="10">
-
-            <label id="dropdown-label" for="dropdown">Which browser are you using?</label>
-            <select  required name="dropdown" id="dropdown" >
-                <option value=""> </option>
-                <option value="">Chrome</option>
-                <option value="">Safari</option>
-                <option value="">Firefox</option>
-                <option value="">Other</option>
-            </select>
-
-            <label id="radio-label">What do you think of this website?</label>
-        <div class="radio-option">
-            <input type="radio" name="radio_option" id="option1">
-            <label id="radio_label" for="option1">Great!</label>
+    <div class="navbar">
+        <div class="navbar_logo">
+            <a href="/test.html" id="navbar_logo_txt">Logo</a>
         </div>
-        <div class="radio-option">
-            <input type="radio" name="radio_option" id="option2">
-            <label id="radio_label" for="option2">Meh.</label>
-        </div>
-        <div class="radio-option">
-            <input type="radio" name="radio_option" id="option3">
-            <label id="radio_label" for="option3">It needs a lot of changes.</label>
+        <div class="navbar_content">
+            <div class="navbar_about"><a href="#about" class="navbar__links">about</a></div>
+            <div class="navbar_button">
+               <div class="navbar_contact" ><a href="/form.html" target="_blank" class="navbar__links" id="contact_text">formulario</a></div>
+            </div>
         </div>
 
-        <label for="change">What changes would you like for this website</label>
-        <div class="checkbox-option">
-            <input type="checkbox" name="Design" id="design" value="design">
-            <label id="check_label" for="design">Design</label>
-        </div>
-        <div class="checkbox-option">
-            <input type="checkbox" name="Content" id="content" value="content">
-            <label id="check_label" for="content">Content</label>
-        </div>
-        <div class="checkbox-option">
-            <input type="checkbox" name="Other" id="other" value="other">
-            <label id="check_label" for="other">Other</label>
-        </div>
-
-
-            <label for="feedback">We appreciate your feedback!</label>
-            <input type="text" id="feedback_input" placeholder="text">
-
-            <input type="submit" id="submit">
-        </form>
     </div>
+    <div class="hero" id="hero">
+        <div class="hero_card"></div>
+        <div class="hero_content">
+            <h1 class="hero_title">Angel Rodriguez</h1>
+            <p class="hero_paragraph">Parrafo</p>
+        </div>
+    </div>
+    <div class="about" id="about">
+        
+        <div class="about_card">
+            <div class="about_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero pariatur corporis quaerat voluptatum eos tempora temporibus nisi voluptates sed, exercitationem sequi dolore culpa incidunt accusamus, quasi unde reprehenderit ea molestias.</div>
 
+        </div>
 
+    </div>
+    <div class="social" id="social">
+        <div class="instagram">
+            <div class="instagram_card">
+                <div class="instagram_image_container">
+                    <img src="/images/new-Instagram-logo-white-glyph.png" alt="IG LOGO" id="ig_logo">
+                </div>
+
+            </div>
+            <div class="username_card">
+                <div class="usernameIG" id="usernameIG">@username</div>
+            </div>
+            
+
+        </div>
+        <div class="X">
+                <div class="X_card">
+                    <div class="X_image_container">
+                        <img src="images/1690643777twitter-x logo-png-white.png" alt="x LOGO" id="X_logo">
+                    </div>
+    
+                </div>
+                <div class="username_card">
+                    <div class="usernameX" id="usernameX">@username</div>
+         </div>
+    
+
+    </div>
 </body>
 </html>

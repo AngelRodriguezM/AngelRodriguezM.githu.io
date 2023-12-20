@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">A Quick Survey!</h1>
+    <p id="description">It'll take just a second</p>
+    <div class="form_container">
+        <form id="survey-form" action="">
+            <label id="name-label" for="name">Name</label>
+            <input type="text" id="name" required placeholder="Your Name">
+
+            <label id="email-label" for="email">Email</label>
+            <input type="email" id="email" required placeholder="Your@email.com">
+
+            <label id="number-label" for="number">What would you rate the site between 1-10</label>
+            <input type="number" id="number" placeholder="10" min="1" max="10">
+
+            <label id="dropdown-label" for="dropdown">Which browser are you using?</label>
+            <select  required name="dropdown" id="dropdown" >
+                <option value=""> </option>
+                <option value="">Chrome</option>
+                <option value="">Safari</option>
+                <option value="">Firefox</option>
+                <option value="">Other</option>
+            </select>
+
+            <label id="radio-label">What do you think of this website?</label>
+        <div class="radio-option">
+            <input type="radio" name="radio_option" id="option1">
+            <label id="radio_label" for="option1">Great!</label>
+        </div>
+        <div class="radio-option">
+            <input type="radio" name="radio_option" id="option2">
+            <label id="radio_label" for="option2">Meh.</label>
+        </div>
+        <div class="radio-option">
+            <input type="radio" name="radio_option" id="option3">
+            <label id="radio_label" for="option3">It needs a lot of changes.</label>
+        </div>
+
+        <label for="change">What changes would you like for this website</label>
+        <div class="checkbox-option">
+            <input type="checkbox" name="Design" id="design" value="design">
+            <label id="check_label" for="design">Design</label>
+        </div>
+        <div class="checkbox-option">
+            <input type="checkbox" name="Content" id="content" value="content">
+            <label id="check_label" for="content">Content</label>
+        </div>
+        <div class="checkbox-option">
+            <input type="checkbox" name="Other" id="other" value="other">
+            <label id="check_label" for="other">Other</label>
+        </div>
+
+
+            <label for="feedback">We appreciate your feedback!</label>
+            <input type="text" id="feedback_input" placeholder="text">
+
+            <input type="submit" id="submit">
+        </form>
+    </div>
+
+
+</body>
+</html>
