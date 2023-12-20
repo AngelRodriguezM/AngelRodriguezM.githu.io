@@ -556,7 +556,7 @@
      }
      .navbar_contact:hover{
         transition: background-color,transform 0.3s ;
-        transform: scale(0);
+        transform: scale(1);
     
     }
 }
